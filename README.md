@@ -1,61 +1,80 @@
-# SocialBuddy Language Packs / 語言包
+# SocialBuddy 語言包 / Language Packs
 
-Community-contributed language packs for [SocialBuddy](https://github.com/chenmitchell/social-buddy-release) Chrome Extension.
+<p align="center">
+  <strong>🌐 社群小幫手多語言翻譯</strong><br>
+  讓 <a href="https://github.com/chenmitchell/social-buddy-release">SocialBuddy</a> 說你的語言。
+</p>
 
-## Included Languages / 包含語言
+---
 
-| Folder | Language | 語言 |
-|--------|----------|------|
-| `zh_CN` | Simplified Chinese | 簡體中文 |
-| `ja` | Japanese | 日本語 |
-| `ko` | Korean | 한국어 |
-| `es` | Spanish | Español |
-| `pt_BR` | Brazilian Portuguese | Português (Brasil) |
+> **還沒裝 SocialBuddy？** 👉 [先到這裡下載擴充功能](https://github.com/chenmitchell/social-buddy-release)，裝好再回來拿語言包。
 
-> **Note:** Traditional Chinese (`zh_TW`) and English (`en`) are built into the extension by default.
+## 目前有的語言
 
-## How to Install / 安裝方式
+| 資料夾 | 語言 | Language |
+|--------|------|----------|
+| `zh_CN` | 簡體中文 | Simplified Chinese |
+| `ja` | 日本語 | Japanese |
+| `ko` | 한국어 | Korean |
+| `es` | Español | Spanish |
+| `pt_BR` | Português (Brasil) | Brazilian Portuguese |
 
-1. Download the language folder you need (e.g. `locales/ja/`)
-2. Open the extension's installation folder
-3. Copy the folder into `_locales/`
-4. Reload the extension in `chrome://extensions`
+> 繁體中文和英文已經內建在擴充功能裡，不用另外裝。
 
-For canned reply templates:
-1. Download the JSON file from `canned-templates/` (e.g. `ja.json`)
-2. Open SocialBuddy Settings → Quick Replies → Import JSON
-3. Select the downloaded file
+## 怎麼裝？
 
-## How to Contribute / 如何貢獻
+### 介面翻譯（_locales）
 
-We welcome translations for new languages! Here's how:
+1. 在上面的表格找到你要的語言資料夾
+2. 點進 `locales/` → 下載整個語言資料夾（例如 `ja/`）
+3. 找到你電腦上 SocialBuddy 擴充功能的安裝資料夾
+4. 把下載的資料夾丟進 `_locales/` 裡面
+5. 到 `chrome://extensions/` 重新載入擴充功能
 
-1. **Fork** this repository
-2. Create a new folder under `locales/` using Chrome's locale code (e.g. `fr`, `de`, `th`)
-3. Copy `locales/ja/messages.json` as a template
-4. Translate all `"message"` values (keep the `"description"` as reference)
-5. (Optional) Create a canned template JSON under `canned-templates/`
-6. Submit a **Pull Request**
+### 快速回覆範本
 
-### Locale Code Reference
+1. 到 `canned-templates/` 下載你要的語言 JSON（例如 `ja.json`）
+2. 打開 SocialBuddy 設定頁 → 快速回覆 → 匯入 JSON
+3. 選剛下載的檔案就好了
 
-Use standard Chrome locale codes: `fr`, `de`, `it`, `th`, `vi`, `id`, `ar`, `ru`, `tr`, `hi`, etc.
+## 想幫忙翻譯？
 
-Full list: https://developer.chrome.com/docs/extensions/reference/api/i18n#locales
+歡迎貢獻新語言或改善現有翻譯！
 
-### Canned Template Format
+1. **Fork** 這個 repo
+2. 在 `locales/` 底下新增一個資料夾，用 Chrome 的語系代碼命名（例如 `fr`、`de`、`th`）
+3. 複製 `locales/ja/messages.json` 當範本
+4. 翻譯裡面所有的 `"message"` 欄位（`"description"` 是說明，留著參考就好）
+5. 想順便做快速回覆範本的話，在 `canned-templates/` 加一個 JSON
+6. 送 **Pull Request**
+
+### 語系代碼參考
+
+常見的：`fr`（法文）、`de`（德文）、`it`（義大利文）、`th`（泰文）、`vi`（越南文）、`id`（印尼文）、`ar`（阿拉伯文）、`ru`（俄文）、`tr`（土耳其文）、`hi`（印地文）
+
+完整清單：https://developer.chrome.com/docs/extensions/reference/api/i18n#locales
+
+### 快速回覆範本格式
 
 ```json
 [
   {
-    "title": "Short label for the template",
-    "body": "The full reply message text...",
-    "category": "Category name (e.g. 感謝回饋, 澄清事實)",
-    "persona": "Persona style (e.g. 專業穩重, 溫暖親切)"
+    "title": "範本標題（簡短描述）",
+    "body": "完整的回覆文字內容...",
+    "category": "分類名稱（例如：感謝回饋、澄清事實）",
+    "persona": "語氣風格（例如：專業穩重、溫暖親切）"
   }
 ]
 ```
 
-## License
+## 相關連結
 
-MIT — see [LICENSE](LICENSE)
+- [SocialBuddy 擴充功能下載](https://github.com/chenmitchell/social-buddy-release)
+- [SocialBuddy 官網](https://socialbuddy-verify.mitch.tw)
+
+---
+
+<p align="center">
+  <strong>米球®</strong> — SocialBuddy 社群小幫手<br>
+  <sub>MIT License — 自由使用、自由貢獻。</sub>
+</p>
