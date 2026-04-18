@@ -1,0 +1,674 @@
+{
+  "extName": {
+    "message": "SocialBuddy · 社交小助手",
+    "description": "Extension display name"
+  },
+  "extShortName": {
+    "message": "SocialBuddy",
+    "description": "Short name shown under the toolbar icon"
+  },
+  "extDescription": {
+    "message": "在浏览 Threads / Instagram / Facebook 时，将帖子备份到本地。数据仅存储在你的电脑中，不上云。",
+    "description": "Chrome Web Store description"
+  },
+  "actionTitle": {
+    "message": "SocialBuddy · 社交小助手",
+    "description": "Tooltip on toolbar icon"
+  },
+  "sidePanelTitle": {
+    "message": "社交小助手",
+    "description": "Side panel heading"
+  },
+  "sidePanelSubtitle": {
+    "message": "数据仅存储在你的设备上",
+    "description": "Side panel subtitle / privacy reminder"
+  },
+  "labelKeyword": {
+    "message": "关键字"
+  },
+  "searchPlaceholder": {
+    "message": "搜索帖子内容或作者"
+  },
+  "labelPlatform": {
+    "message": "平台"
+  },
+  "platformAll": {
+    "message": "全部"
+  },
+  "labelExportFormat": {
+    "message": "导出格式"
+  },
+  "btnRefresh": {
+    "message": "刷新"
+  },
+  "btnExport": {
+    "message": "导出"
+  },
+  "btnClear": {
+    "message": "清空"
+  },
+  "statusLoading": {
+    "message": "加载中…"
+  },
+  "statusEmpty": {
+    "message": "暂无帖子。打开 Threads/IG/FB 即可自动抓取。"
+  },
+  "statusEmptyFiltered": {
+    "message": "匹配的帖子：0"
+  },
+  "statusShowing": {
+    "message": "显示 $1 / $2 条",
+    "placeholders": {
+      "shown": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "statusExportDone": {
+    "message": "已导出 $1（见浏览器下载列）。",
+    "placeholders": {
+      "format": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusCleared": {
+    "message": "已清空所有帖子。"
+  },
+  "confirmClearAll": {
+    "message": "确定要清空全部已抓取的帖子？此操作无法撤销。"
+  },
+  "linkOriginal": {
+    "message": "原文"
+  },
+  "optionsTitle": {
+    "message": "SocialBuddy · 设置"
+  },
+  "optionsIntro": {
+    "message": "在此调整抓取行为。数据始终仅存储在你的电脑，不会上云。"
+  },
+  "sectionCapture": {
+    "message": "抓取"
+  },
+  "sectionPlatforms": {
+    "message": "平台"
+  },
+  "sectionRetention": {
+    "message": "数据保留"
+  },
+  "toggleAutoCapture": {
+    "message": "自动抓取浏览中的帖子"
+  },
+  "toggleShowMediaPreview": {
+    "message": "在边栏显示图片预览（会向平台 CDN 发请求）"
+  },
+  "retentionLabel": {
+    "message": "自动删除超过天数（0 表示永久保留）"
+  },
+  "btnSave": {
+    "message": "保存"
+  },
+  "savedAt": {
+    "message": "已保存（$1）",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "saveMismatch": {
+    "message": "⚠ 保存后读回不一致，请重试"
+  },
+  "homePageTitle": {
+    "message": "社交小助手"
+  },
+  "homePageSubtitle": {
+    "message": "数据仅存储在你的设备上"
+  },
+  "toggleTheme": {
+    "message": "切换主题"
+  },
+  "scheduleIndicator": {
+    "message": "排程"
+  },
+  "navSearchResults": {
+    "message": "搜索结果"
+  },
+  "navAccountAnalysis": {
+    "message": "账户分析"
+  },
+  "navBackupRecords": {
+    "message": "备份记录"
+  },
+  "navReports": {
+    "message": "报告"
+  },
+  "threadsKeywordSearch": {
+    "message": "Threads 关键字搜索"
+  },
+  "labelCategory": {
+    "message": "分类"
+  },
+  "customKeyword": {
+    "message": "-- 自定义关键字 --"
+  },
+  "btnImportCategory": {
+    "message": "📥 导入分类"
+  },
+  "btnExportCategory": {
+    "message": "📤 导出分类"
+  },
+  "labelSort": {
+    "message": "排序"
+  },
+  "sortPopular": {
+    "message": "热门（最相关）"
+  },
+  "sortRecent": {
+    "message": "最新"
+  },
+  "labelDepth": {
+    "message": "深度"
+  },
+  "depthShallow": {
+    "message": "浅（每个约 30 秒，1 轮）"
+  },
+  "depthMedium": {
+    "message": "中（每个约 60 秒，2 轮）"
+  },
+  "depthDeep": {
+    "message": "深（每个约 120 秒，3 轮）"
+  },
+  "depthContinuous": {
+    "message": "连续（无限轮，手动停止）"
+  },
+  "btnStartSearch": {
+    "message": "开始搜索 Threads"
+  },
+  "btnStopSearch": {
+    "message": "停止搜索并导出"
+  },
+  "replyModeTitle": {
+    "message": "回复帖子要抓什么"
+  },
+  "replySelfOnly": {
+    "message": "只抓这条评论"
+  },
+  "replySelfOnlyHint": {
+    "message": "不带上下文，最清洁"
+  },
+  "replyWithParent": {
+    "message": "评论 + 被回复的原文"
+  },
+  "replyWithParentHint": {
+    "message": "看得到前因后果"
+  },
+  "replyWithThread": {
+    "message": "原文 + 整串评论"
+  },
+  "replyWithThreadHint": {
+    "message": "完整讨论串（可见范围内）"
+  },
+  "labelFilter": {
+    "message": "筛选帖子"
+  },
+  "allPlatforms": {
+    "message": "全部"
+  },
+  "autoScreenshot": {
+    "message": "自动截图"
+  },
+  "capturedPosts": {
+    "message": "已抓取帖子"
+  },
+  "noPostsLoading": {
+    "message": "加载中…"
+  },
+  "noPostsEmpty": {
+    "message": "暂无帖子。打开 Threads/Instagram/Facebook 即可开始抓取。"
+  },
+  "noPostsFiltered": {
+    "message": "没有匹配的帖子：0"
+  },
+  "viewOriginal": {
+    "message": "原文"
+  },
+  "replyingTo": {
+    "message": "正在回复："
+  },
+  "couldNotLoad": {
+    "message": "（无法抓取原文内容）"
+  },
+  "threadReplies": {
+    "message": "同串评论"
+  },
+  "editHistory": {
+    "message": "✏️ 已编辑 ×"
+  },
+  "viewEditHistory": {
+    "message": "查看编辑历史"
+  },
+  "historyTitle": {
+    "message": "编辑历史"
+  },
+  "historyMeta": {
+    "message": "@$1 · $2 · 共 $3 个版本",
+    "placeholders": {
+      "author": {
+        "content": "$1"
+      },
+      "platform": {
+        "content": "$2"
+      },
+      "count": {
+        "content": "$3"
+      }
+    }
+  },
+  "oldVersion": {
+    "message": "旧版本"
+  },
+  "newVersion": {
+    "message": "新版本"
+  },
+  "diffStats": {
+    "message": "+$1  −$2  (同 $3 字)",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "removed": {
+        "content": "$2"
+      },
+      "equal": {
+        "content": "$3"
+      }
+    }
+  },
+  "quickReply": {
+    "message": "快速回复"
+  },
+  "cannedPersonaTab1": {
+    "message": "专业"
+  },
+  "cannedPersonaTab2": {
+    "message": "友好"
+  },
+  "cannedPersonaTab3": {
+    "message": "俏皮"
+  },
+  "selectReply": {
+    "message": "-- 选择回复 --"
+  },
+  "copyToClipboard": {
+    "message": "📋"
+  },
+  "fillReplyBox": {
+    "message": "📝"
+  },
+  "cannedHint": {
+    "message": "建议的回复，请调整后再发送"
+  },
+  "btnImportTemplates": {
+    "message": "📥 导入"
+  },
+  "btnExportTemplates": {
+    "message": "📤 导出"
+  },
+  "btnResetDefaults": {
+    "message": "↩ 恢复默认"
+  },
+  "copied": {
+    "message": "已复制！请调整后再发送"
+  },
+  "filled": {
+    "message": "已填入！请调整后再发送"
+  },
+  "copyFallback": {
+    "message": "无法填入，已复制到剪贴板"
+  },
+  "export": {
+    "message": "导出"
+  },
+  "labelFormat": {
+    "message": "格式（可多选）"
+  },
+  "layoutFlat": {
+    "message": "单条列表"
+  },
+  "layoutPaired": {
+    "message": "配原文"
+  },
+  "layoutThreaded": {
+    "message": "整串"
+  },
+  "autoExport": {
+    "message": "自动导出"
+  },
+  "autoExportInterval": {
+    "message": "自动导出间隔"
+  },
+  "every3Min": {
+    "message": "每 3 分钟"
+  },
+  "every5Min": {
+    "message": "每 5 分钟"
+  },
+  "every10Min": {
+    "message": "每 10 分钟"
+  },
+  "storageWarning": {
+    "message": "存储空间警告"
+  },
+  "storageNear": {
+    "message": "存储空间使用率"
+  },
+  "storageDanger": {
+    "message": "存储空间即将满"
+  },
+  "exportAndClear": {
+    "message": "导出后清除"
+  },
+  "searchStatus": {
+    "message": "准备搜索 $1 组关键字（$2）…",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "depth": {
+        "content": "$2"
+      }
+    }
+  },
+  "searchFailed": {
+    "message": "搜索失败"
+  },
+  "searchStopping": {
+    "message": "正在停止搜索…"
+  },
+  "searchContinue": {
+    "message": "继续搜索中…"
+  },
+  "searchProgress": {
+    "message": "第 $1 轮 · 搜索中（$2/$3）：$4",
+    "placeholders": {
+      "round": {
+        "content": "$1"
+      },
+      "current": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      },
+      "keyword": {
+        "content": "$4"
+      }
+    }
+  },
+  "searchDone": {
+    "message": "搜索完成！共搜了 $1 组关键字。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchStopped": {
+    "message": "已停止"
+  },
+  "searchRequired": {
+    "message": "请先添加至少一个关键字。"
+  },
+  "exportSuccess": {
+    "message": "已导出 $1（存到 Downloads/socialbuddy/$2/<格式>/）",
+    "placeholders": {
+      "format": {
+        "content": "$1"
+      },
+      "folder": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSuccess": {
+    "message": "导入成功（$1 个分类）",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "importFailed": {
+    "message": "导入失败"
+  },
+  "exportFailed": {
+    "message": "导出失败"
+  },
+  "clearFailed": {
+    "message": "清空失败"
+  },
+  "resetDefaults": {
+    "message": "已恢复默认模板"
+  },
+  "resetFailed": {
+    "message": "恢复失败"
+  },
+  "importFormatError": {
+    "message": "格式错误：找不到有效的分类数据"
+  },
+  "csvFormatError": {
+    "message": "CSV 格式错误：需要至少 4 列（分类,语气,标题,内容）"
+  },
+  "noDataToExport": {
+    "message": "暂无关键字分类可导出"
+  },
+  "noTemplates": {
+    "message": "暂无模板可导出"
+  },
+  "noCannedMessages": {
+    "message": "（暂无模板）"
+  },
+  "confirmClear": {
+    "message": "确定要清空全部已抓取的帖子？此操作无法撤销。"
+  },
+  "confirmReset": {
+    "message": "确定要恢复默认快速回复？这将删除所有自定义的模板。"
+  },
+  "removeKeyword": {
+    "message": "删除「$1」",
+    "placeholders": {
+      "keyword": {
+        "content": "$1"
+      }
+    }
+  },
+  "onboardingStep": {
+    "message": "步骤 $1 / 5",
+    "placeholders": {
+      "step": {
+        "content": "$1"
+      }
+    }
+  },
+  "onboardingDownloadPath": {
+    "message": "下载路径"
+  },
+  "onboardingDownloadPathDesc": {
+    "message": "导出的文件将保存到你的「下载」文件夹。你可以在设置中设置子文件夹位置。"
+  },
+  "onboardingCategories": {
+    "message": "关键字分类"
+  },
+  "onboardingCategoriesDesc": {
+    "message": "在设置页面可以创建关键字分类，方便在边栏快速切换。"
+  },
+  "onboardingWatermark": {
+    "message": "文件水印"
+  },
+  "onboardingWatermarkDesc": {
+    "message": "导出的文件会标上你的名字。在设置中可以添加自定义标签（例如「工作用」）。"
+  },
+  "onboardingSchedule": {
+    "message": "定时搜索"
+  },
+  "onboardingScheduleDesc": {
+    "message": "在设置的「排程任务」区可以设定让 Chrome 在后台定时搜索和导出。"
+  },
+  "onboardingStart": {
+    "message": "开始使用"
+  },
+  "onboardingStartDesc": {
+    "message": "现在就试试吧！在上方输入关键字，按「开始搜索 Threads」。"
+  },
+  "onboardingSkip": {
+    "message": "跳过"
+  },
+  "onboardingPrev": {
+    "message": "上一步"
+  },
+  "onboardingNext": {
+    "message": "下一步"
+  },
+  "onboardingDone": {
+    "message": "完成"
+  },
+  "onboardingTitle": {
+    "message": "SocialBuddy · 设置"
+  },
+  "searchResultsTitle": {
+    "message": "搜索结果"
+  },
+  "backupRecordsTitle": {
+    "message": "备份记录"
+  },
+  "accountAnalysisTitle": {
+    "message": "账户分析"
+  },
+  "reportsTitle": {
+    "message": "搜索报告"
+  },
+  "labelKeywordFilter": {
+    "message": "关键字"
+  },
+  "filterKeyword": {
+    "message": "筛选关键字"
+  },
+  "labelTimeRange": {
+    "message": "时间范围"
+  },
+  "last7Days": {
+    "message": "最近 7 天"
+  },
+  "last30Days": {
+    "message": "最近 30 天"
+  },
+  "last90Days": {
+    "message": "最近 90 天"
+  },
+  "btnExportCsv": {
+    "message": "导出 CSV"
+  },
+  "btnExportJson": {
+    "message": "导出 JSON"
+  },
+  "btnBatchArchive": {
+    "message": "批量归档"
+  },
+  "btnExportMerged": {
+    "message": "导出合并报告"
+  },
+  "loadingStatus": {
+    "message": "加载中…"
+  },
+  "backupTotalCount": {
+    "message": "备份总数"
+  },
+  "backupUsed": {
+    "message": "已使用"
+  },
+  "backupLastBackup": {
+    "message": "最后备份"
+  },
+  "backupNone": {
+    "message": "无"
+  },
+  "searchBackup": {
+    "message": "搜索备份内容"
+  },
+  "backupsList": {
+    "message": "备份记录列表"
+  },
+  "accountsTable": {
+    "message": "账户列表"
+  },
+  "accountName": {
+    "message": "账户"
+  },
+  "accountPlatform": {
+    "message": "平台"
+  },
+  "accountFirstSeen": {
+    "message": "首次发现"
+  },
+  "accountLastActive": {
+    "message": "最后活跃"
+  },
+  "accountPostCount": {
+    "message": "帖子数"
+  },
+  "accountReplyCount": {
+    "message": "回复数"
+  },
+  "accountTotal": {
+    "message": "总计"
+  },
+  "accountActivity": {
+    "message": "活跃度"
+  },
+  "accountActions": {
+    "message": "操作"
+  },
+  "detailBack": {
+    "message": "← 返回"
+  },
+  "stickinessMatrix": {
+    "message": "粘性矩阵"
+  },
+  "followingAccount": {
+    "message": "跟踪账户"
+  },
+  "replyCount": {
+    "message": "回复次数"
+  },
+  "cooccurrence": {
+    "message": "共同出现"
+  },
+  "stickinessScore": {
+    "message": "粘性分数"
+  },
+  "interestingArticles": {
+    "message": "有趣的文章"
+  },
+  "contactInfo": {
+    "message": "联系信息"
+  },
+  "keywordHitStats": {
+    "message": "关键字命中统计"
+  },
+  "anomalyAlerts": {
+    "message": "异常警告"
+  },
+  "newPosts": {
+    "message": "新帖子"
+  },
+  "trendAnalysis": {
+    "message": "跨报告关键字趋势"
+  },
+  "reportsList": {
+    "message": "搜索报告列表"
+  }
+}

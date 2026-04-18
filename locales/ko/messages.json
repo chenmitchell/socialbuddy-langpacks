@@ -1,0 +1,674 @@
+{
+  "extName": {
+    "message": "SocialBuddy",
+    "description": "Extension display name"
+  },
+  "extShortName": {
+    "message": "SocialBuddy",
+    "description": "Short name shown under the toolbar icon"
+  },
+  "extDescription": {
+    "message": "Threads / Instagram / Facebook을 탐색하는 동안 게시물을 컴퓨터에 백업하세요. 모든 데이터는 로컬에 저장되며 업로드되지 않습니다.",
+    "description": "Chrome Web Store description"
+  },
+  "actionTitle": {
+    "message": "SocialBuddy",
+    "description": "Tooltip on toolbar icon"
+  },
+  "sidePanelTitle": {
+    "message": "SocialBuddy",
+    "description": "Side panel heading"
+  },
+  "sidePanelSubtitle": {
+    "message": "데이터는 기기에 저장됩니다",
+    "description": "Side panel subtitle / privacy reminder"
+  },
+  "labelKeyword": {
+    "message": "키워드"
+  },
+  "searchPlaceholder": {
+    "message": "게시물 내용 또는 작성자 검색"
+  },
+  "labelPlatform": {
+    "message": "플랫폼"
+  },
+  "platformAll": {
+    "message": "모두"
+  },
+  "labelExportFormat": {
+    "message": "내보내기 형식"
+  },
+  "btnRefresh": {
+    "message": "새로고침"
+  },
+  "btnExport": {
+    "message": "내보내기"
+  },
+  "btnClear": {
+    "message": "지우기"
+  },
+  "statusLoading": {
+    "message": "로드 중…"
+  },
+  "statusEmpty": {
+    "message": "아직 게시물이 없습니다. Threads / Instagram / Facebook을 열면 자동으로 캡처됩니다."
+  },
+  "statusEmptyFiltered": {
+    "message": "일치하는 게시물: 0"
+  },
+  "statusShowing": {
+    "message": "$1 / $2개 표시",
+    "placeholders": {
+      "shown": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "statusExportDone": {
+    "message": "$1을(를) 내보냈습니다(브라우저 다운로드 표시줄 확인).",
+    "placeholders": {
+      "format": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusCleared": {
+    "message": "모든 게시물이 지워졌습니다."
+  },
+  "confirmClearAll": {
+    "message": "캡처한 모든 게시물을 지우시겠습니까? 이 작업은 취소할 수 없습니다."
+  },
+  "linkOriginal": {
+    "message": "원본"
+  },
+  "optionsTitle": {
+    "message": "SocialBuddy · 설정"
+  },
+  "optionsIntro": {
+    "message": "여기서 캡처 동작을 조정합니다. 데이터는 항상 컴퓨터에 저장되며 클라우드에 업로드되지 않습니다."
+  },
+  "sectionCapture": {
+    "message": "캡처"
+  },
+  "sectionPlatforms": {
+    "message": "플랫폼"
+  },
+  "sectionRetention": {
+    "message": "데이터 보관"
+  },
+  "toggleAutoCapture": {
+    "message": "탐색 중인 게시물 자동 캡처"
+  },
+  "toggleShowMediaPreview": {
+    "message": "사이드바에 이미지 미리보기 표시(플랫폼 CDN에 요청 전송)"
+  },
+  "retentionLabel": {
+    "message": "이전 게시물 자동 삭제(일, 0 = 영구 보관)"
+  },
+  "btnSave": {
+    "message": "저장"
+  },
+  "savedAt": {
+    "message": "저장됨($1)",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "saveMismatch": {
+    "message": "⚠ 저장 후 읽은 값이 일치하지 않습니다. 다시 시도하세요."
+  },
+  "homePageTitle": {
+    "message": "SocialBuddy"
+  },
+  "homePageSubtitle": {
+    "message": "데이터는 기기에 저장됩니다"
+  },
+  "toggleTheme": {
+    "message": "테마 전환"
+  },
+  "scheduleIndicator": {
+    "message": "일정"
+  },
+  "navSearchResults": {
+    "message": "검색 결과"
+  },
+  "navAccountAnalysis": {
+    "message": "계정 분석"
+  },
+  "navBackupRecords": {
+    "message": "백업 기록"
+  },
+  "navReports": {
+    "message": "보고서"
+  },
+  "threadsKeywordSearch": {
+    "message": "Threads 키워드 검색"
+  },
+  "labelCategory": {
+    "message": "카테고리"
+  },
+  "customKeyword": {
+    "message": "-- 사용자 정의 키워드 --"
+  },
+  "btnImportCategory": {
+    "message": "📥 카테고리 가져오기"
+  },
+  "btnExportCategory": {
+    "message": "📤 카테고리 내보내기"
+  },
+  "labelSort": {
+    "message": "정렬"
+  },
+  "sortPopular": {
+    "message": "인기(가장 관련성 높음)"
+  },
+  "sortRecent": {
+    "message": "최신"
+  },
+  "labelDepth": {
+    "message": "깊이"
+  },
+  "depthShallow": {
+    "message": "얕음(키워드당 약 30초, 1라운드)"
+  },
+  "depthMedium": {
+    "message": "중간(키워드당 약 60초, 2라운드)"
+  },
+  "depthDeep": {
+    "message": "깊음(키워드당 약 120초, 3라운드)"
+  },
+  "depthContinuous": {
+    "message": "계속(무제한, 수동 중지)"
+  },
+  "btnStartSearch": {
+    "message": "Threads 검색 시작"
+  },
+  "btnStopSearch": {
+    "message": "검색 중지 및 내보내기"
+  },
+  "replyModeTitle": {
+    "message": "답글에서 캡처할 항목?"
+  },
+  "replySelfOnly": {
+    "message": "이 댓글만"
+  },
+  "replySelfOnlyHint": {
+    "message": "컨텍스트 없음, 가장 깔끔함"
+  },
+  "replyWithParent": {
+    "message": "댓글 + 원본 게시물"
+  },
+  "replyWithParentHint": {
+    "message": "답글 대상을 볼 수 있음"
+  },
+  "replyWithThread": {
+    "message": "원본 + 모든 답글"
+  },
+  "replyWithThreadHint": {
+    "message": "전체 스레드(표시 범위 내)"
+  },
+  "labelFilter": {
+    "message": "게시물 필터링"
+  },
+  "allPlatforms": {
+    "message": "모두"
+  },
+  "autoScreenshot": {
+    "message": "자동 스크린샷"
+  },
+  "capturedPosts": {
+    "message": "캡처된 게시물"
+  },
+  "noPostsLoading": {
+    "message": "로드 중…"
+  },
+  "noPostsEmpty": {
+    "message": "아직 게시물이 없습니다. Threads / Instagram / Facebook을 열어 캡처를 시작하세요."
+  },
+  "noPostsFiltered": {
+    "message": "일치하는 게시물 없음: 0"
+  },
+  "viewOriginal": {
+    "message": "원본"
+  },
+  "replyingTo": {
+    "message": "답글 대상:"
+  },
+  "couldNotLoad": {
+    "message": "(원본 내용을 로드할 수 없음)"
+  },
+  "threadReplies": {
+    "message": "스레드 답글"
+  },
+  "editHistory": {
+    "message": "✏️ 편집됨 ×"
+  },
+  "viewEditHistory": {
+    "message": "편집 기록 보기"
+  },
+  "historyTitle": {
+    "message": "편집 기록"
+  },
+  "historyMeta": {
+    "message": "@$1 · $2 · $3개 버전",
+    "placeholders": {
+      "author": {
+        "content": "$1"
+      },
+      "platform": {
+        "content": "$2"
+      },
+      "count": {
+        "content": "$3"
+      }
+    }
+  },
+  "oldVersion": {
+    "message": "이전 버전"
+  },
+  "newVersion": {
+    "message": "새 버전"
+  },
+  "diffStats": {
+    "message": "+$1  −$2  (동일 $3자)",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "removed": {
+        "content": "$2"
+      },
+      "equal": {
+        "content": "$3"
+      }
+    }
+  },
+  "quickReply": {
+    "message": "빠른 답글"
+  },
+  "cannedPersonaTab1": {
+    "message": "전문가"
+  },
+  "cannedPersonaTab2": {
+    "message": "친근함"
+  },
+  "cannedPersonaTab3": {
+    "message": "장난스러움"
+  },
+  "selectReply": {
+    "message": "-- 답글 선택 --"
+  },
+  "copyToClipboard": {
+    "message": "📋"
+  },
+  "fillReplyBox": {
+    "message": "📝"
+  },
+  "cannedHint": {
+    "message": "제안된 답글입니다. 보내기 전에 조정하세요"
+  },
+  "btnImportTemplates": {
+    "message": "📥 가져오기"
+  },
+  "btnExportTemplates": {
+    "message": "📤 내보내기"
+  },
+  "btnResetDefaults": {
+    "message": "↩ 기본값으로 재설정"
+  },
+  "copied": {
+    "message": "복사됨! 보내기 전에 조정하세요"
+  },
+  "filled": {
+    "message": "입력됨! 보내기 전에 조정하세요"
+  },
+  "copyFallback": {
+    "message": "입력할 수 없어 클립보드에 복사했습니다"
+  },
+  "export": {
+    "message": "내보내기"
+  },
+  "labelFormat": {
+    "message": "형식(여러 개 선택 가능)"
+  },
+  "layoutFlat": {
+    "message": "단순 목록"
+  },
+  "layoutPaired": {
+    "message": "원본 포함"
+  },
+  "layoutThreaded": {
+    "message": "스레드형"
+  },
+  "autoExport": {
+    "message": "자동 내보내기"
+  },
+  "autoExportInterval": {
+    "message": "자동 내보내기 간격"
+  },
+  "every3Min": {
+    "message": "3분마다"
+  },
+  "every5Min": {
+    "message": "5분마다"
+  },
+  "every10Min": {
+    "message": "10분마다"
+  },
+  "storageWarning": {
+    "message": "스토리지 경고"
+  },
+  "storageNear": {
+    "message": "스토리지 사용률"
+  },
+  "storageDanger": {
+    "message": "스토리지가 거의 가득 참"
+  },
+  "exportAndClear": {
+    "message": "내보낸 후 지우기"
+  },
+  "searchStatus": {
+    "message": "$1개의 키워드 검색 준비 중($2)…",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "depth": {
+        "content": "$2"
+      }
+    }
+  },
+  "searchFailed": {
+    "message": "검색 실패"
+  },
+  "searchStopping": {
+    "message": "검색 중지 중…"
+  },
+  "searchContinue": {
+    "message": "검색 재개 중…"
+  },
+  "searchProgress": {
+    "message": "라운드 $1 · 검색 중($2/$3): $4",
+    "placeholders": {
+      "round": {
+        "content": "$1"
+      },
+      "current": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      },
+      "keyword": {
+        "content": "$4"
+      }
+    }
+  },
+  "searchDone": {
+    "message": "검색 완료! 총 $1개의 키워드를 검색했습니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchStopped": {
+    "message": "중지됨"
+  },
+  "searchRequired": {
+    "message": "먼저 하나 이상의 키워드를 추가하세요."
+  },
+  "exportSuccess": {
+    "message": "$1을(를) 내보냈습니다(Downloads/socialbuddy/$2/<형식>/ 에 저장)",
+    "placeholders": {
+      "format": {
+        "content": "$1"
+      },
+      "folder": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSuccess": {
+    "message": "가져오기 성공($1개 카테고리)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "importFailed": {
+    "message": "가져오기 실패"
+  },
+  "exportFailed": {
+    "message": "내보내기 실패"
+  },
+  "clearFailed": {
+    "message": "지우기 실패"
+  },
+  "resetDefaults": {
+    "message": "기본 템플릿이 복원되었습니다"
+  },
+  "resetFailed": {
+    "message": "재설정 실패"
+  },
+  "importFormatError": {
+    "message": "형식 오류: 유효한 카테고리 데이터를 찾을 수 없음"
+  },
+  "csvFormatError": {
+    "message": "CSV 형식 오류: 최소 4개 열 필요(카테고리, 톤, 제목, 내용)"
+  },
+  "noDataToExport": {
+    "message": "내보낼 키워드 카테고리가 없음"
+  },
+  "noTemplates": {
+    "message": "내보낼 템플릿이 없음"
+  },
+  "noCannedMessages": {
+    "message": "(템플릿이 아직 없음)"
+  },
+  "confirmClear": {
+    "message": "캡처한 모든 게시물을 지우시겠습니까? 취소할 수 없습니다."
+  },
+  "confirmReset": {
+    "message": "기본값으로 재설정하시겠습니까? 모든 사용자 정의 템플릿이 삭제됩니다."
+  },
+  "removeKeyword": {
+    "message": "「$1」 제거",
+    "placeholders": {
+      "keyword": {
+        "content": "$1"
+      }
+    }
+  },
+  "onboardingStep": {
+    "message": "단계 $1 / 5",
+    "placeholders": {
+      "step": {
+        "content": "$1"
+      }
+    }
+  },
+  "onboardingDownloadPath": {
+    "message": "다운로드 경로"
+  },
+  "onboardingDownloadPathDesc": {
+    "message": "내보낸 파일은 「다운로드」 폴더에 저장됩니다. 설정에서 사용자 정의 하위 폴더를 설정할 수 있습니다."
+  },
+  "onboardingCategories": {
+    "message": "키워드 카테고리"
+  },
+  "onboardingCategoriesDesc": {
+    "message": "설정 페이지에서 키워드 카테고리를 만들어 사이드바에서 빠르게 액세스할 수 있습니다."
+  },
+  "onboardingWatermark": {
+    "message": "파일 워터마크"
+  },
+  "onboardingWatermarkDesc": {
+    "message": "내보낸 파일에는 사용자의 이름이 표시됩니다. 설정에서 사용자 정의 라벨을 추가할 수 있습니다(예: 「업무용」)."
+  },
+  "onboardingSchedule": {
+    "message": "예약된 검색"
+  },
+  "onboardingScheduleDesc": {
+    "message": "설정의 「예약된 작업」 섹션에서 Chrome이 백그라운드에서 검색 및 내보내기를 수행하도록 설정할 수 있습니다."
+  },
+  "onboardingStart": {
+    "message": "시작"
+  },
+  "onboardingStartDesc": {
+    "message": "지금 시도해보세요! 위에 키워드를 입력하고 「Threads 검색 시작」을 클릭합니다."
+  },
+  "onboardingSkip": {
+    "message": "건너뛰기"
+  },
+  "onboardingPrev": {
+    "message": "이전"
+  },
+  "onboardingNext": {
+    "message": "다음"
+  },
+  "onboardingDone": {
+    "message": "완료"
+  },
+  "onboardingTitle": {
+    "message": "SocialBuddy · 설정"
+  },
+  "searchResultsTitle": {
+    "message": "검색 결과"
+  },
+  "backupRecordsTitle": {
+    "message": "백업 기록"
+  },
+  "accountAnalysisTitle": {
+    "message": "계정 분석"
+  },
+  "reportsTitle": {
+    "message": "검색 보고서"
+  },
+  "labelKeywordFilter": {
+    "message": "키워드"
+  },
+  "filterKeyword": {
+    "message": "키워드 필터링"
+  },
+  "labelTimeRange": {
+    "message": "시간 범위"
+  },
+  "last7Days": {
+    "message": "지난 7일"
+  },
+  "last30Days": {
+    "message": "지난 30일"
+  },
+  "last90Days": {
+    "message": "지난 90일"
+  },
+  "btnExportCsv": {
+    "message": "CSV로 내보내기"
+  },
+  "btnExportJson": {
+    "message": "JSON으로 내보내기"
+  },
+  "btnBatchArchive": {
+    "message": "일괄 보관"
+  },
+  "btnExportMerged": {
+    "message": "병합 보고서 내보내기"
+  },
+  "loadingStatus": {
+    "message": "로드 중…"
+  },
+  "backupTotalCount": {
+    "message": "백업 총합"
+  },
+  "backupUsed": {
+    "message": "사용됨"
+  },
+  "backupLastBackup": {
+    "message": "마지막 백업"
+  },
+  "backupNone": {
+    "message": "없음"
+  },
+  "searchBackup": {
+    "message": "백업 검색"
+  },
+  "backupsList": {
+    "message": "백업 기록 목록"
+  },
+  "accountsTable": {
+    "message": "계정 목록"
+  },
+  "accountName": {
+    "message": "계정"
+  },
+  "accountPlatform": {
+    "message": "플랫폼"
+  },
+  "accountFirstSeen": {
+    "message": "처음 발견"
+  },
+  "accountLastActive": {
+    "message": "마지막 활동"
+  },
+  "accountPostCount": {
+    "message": "게시물"
+  },
+  "accountReplyCount": {
+    "message": "답글"
+  },
+  "accountTotal": {
+    "message": "합계"
+  },
+  "accountActivity": {
+    "message": "활동"
+  },
+  "accountActions": {
+    "message": "작업"
+  },
+  "detailBack": {
+    "message": "← 뒤로"
+  },
+  "stickinessMatrix": {
+    "message": "점착성 행렬"
+  },
+  "followingAccount": {
+    "message": "팔로우 중인 계정"
+  },
+  "replyCount": {
+    "message": "답글 수"
+  },
+  "cooccurrence": {
+    "message": "동시 발생"
+  },
+  "stickinessScore": {
+    "message": "점착성 점수"
+  },
+  "interestingArticles": {
+    "message": "흥미로운 기사"
+  },
+  "contactInfo": {
+    "message": "연락처 정보"
+  },
+  "keywordHitStats": {
+    "message": "키워드 히트 통계"
+  },
+  "anomalyAlerts": {
+    "message": "이상 경고"
+  },
+  "newPosts": {
+    "message": "새 게시물"
+  },
+  "trendAnalysis": {
+    "message": "교차 보고서 트렌드"
+  },
+  "reportsList": {
+    "message": "검색 보고서 목록"
+  }
+}

@@ -1,0 +1,674 @@
+{
+  "extName": {
+    "message": "SocialBuddy",
+    "description": "Extension display name"
+  },
+  "extShortName": {
+    "message": "SocialBuddy",
+    "description": "Short name shown under the toolbar icon"
+  },
+  "extDescription": {
+    "message": "Faça backup de posts do Threads, Instagram e Facebook em seu computador enquanto navega. Todos os dados são armazenados localmente, nunca são enviados.",
+    "description": "Chrome Web Store description"
+  },
+  "actionTitle": {
+    "message": "SocialBuddy",
+    "description": "Tooltip on toolbar icon"
+  },
+  "sidePanelTitle": {
+    "message": "SocialBuddy",
+    "description": "Side panel heading"
+  },
+  "sidePanelSubtitle": {
+    "message": "Seus dados são armazenados em seu dispositivo",
+    "description": "Side panel subtitle / privacy reminder"
+  },
+  "labelKeyword": {
+    "message": "Palavra-chave"
+  },
+  "searchPlaceholder": {
+    "message": "Pesquisar conteúdo da postagem ou autor"
+  },
+  "labelPlatform": {
+    "message": "Plataforma"
+  },
+  "platformAll": {
+    "message": "Todas"
+  },
+  "labelExportFormat": {
+    "message": "Formato de exportação"
+  },
+  "btnRefresh": {
+    "message": "Atualizar"
+  },
+  "btnExport": {
+    "message": "Exportar"
+  },
+  "btnClear": {
+    "message": "Limpar"
+  },
+  "statusLoading": {
+    "message": "Carregando…"
+  },
+  "statusEmpty": {
+    "message": "Nenhuma postagem ainda. Abra Threads / Instagram / Facebook e elas serão capturadas automaticamente."
+  },
+  "statusEmptyFiltered": {
+    "message": "Postagens correspondentes: 0"
+  },
+  "statusShowing": {
+    "message": "Mostrando $1 / $2",
+    "placeholders": {
+      "shown": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "statusExportDone": {
+    "message": "Exportado $1 (veja a barra de downloads do navegador).",
+    "placeholders": {
+      "format": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusCleared": {
+    "message": "Todas as postagens foram limpas."
+  },
+  "confirmClearAll": {
+    "message": "Tem certeza de que deseja limpar todas as postagens capturadas? Esta ação não pode ser desfeita."
+  },
+  "linkOriginal": {
+    "message": "Original"
+  },
+  "optionsTitle": {
+    "message": "SocialBuddy · Configurações"
+  },
+  "optionsIntro": {
+    "message": "Ajuste o comportamento de captura aqui. Seus dados sempre são armazenados em seu computador, nunca na nuvem."
+  },
+  "sectionCapture": {
+    "message": "Captura"
+  },
+  "sectionPlatforms": {
+    "message": "Plataformas"
+  },
+  "sectionRetention": {
+    "message": "Retenção de dados"
+  },
+  "toggleAutoCapture": {
+    "message": "Capturar automaticamente postagens enquanto navega"
+  },
+  "toggleShowMediaPreview": {
+    "message": "Mostrar visualização de imagem na barra lateral (envia solicitações para CDNs da plataforma)"
+  },
+  "retentionLabel": {
+    "message": "Excluir automaticamente postagens mais antigas que (dias, 0 = manter para sempre)"
+  },
+  "btnSave": {
+    "message": "Salvar"
+  },
+  "savedAt": {
+    "message": "Salvo ($1)",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "saveMismatch": {
+    "message": "⚠ Os dados não coincidem após salvar. Tente novamente."
+  },
+  "homePageTitle": {
+    "message": "SocialBuddy"
+  },
+  "homePageSubtitle": {
+    "message": "Seus dados são armazenados em seu dispositivo"
+  },
+  "toggleTheme": {
+    "message": "Alternar tema"
+  },
+  "scheduleIndicator": {
+    "message": "Cronograma"
+  },
+  "navSearchResults": {
+    "message": "Resultados da pesquisa"
+  },
+  "navAccountAnalysis": {
+    "message": "Análise da conta"
+  },
+  "navBackupRecords": {
+    "message": "Registros de backup"
+  },
+  "navReports": {
+    "message": "Relatórios"
+  },
+  "threadsKeywordSearch": {
+    "message": "Pesquisa de palavras-chave do Threads"
+  },
+  "labelCategory": {
+    "message": "Categoria"
+  },
+  "customKeyword": {
+    "message": "-- Palavras-chave personalizadas --"
+  },
+  "btnImportCategory": {
+    "message": "📥 Importar categoria"
+  },
+  "btnExportCategory": {
+    "message": "📤 Exportar categoria"
+  },
+  "labelSort": {
+    "message": "Ordenar"
+  },
+  "sortPopular": {
+    "message": "Popular (mais relevante)"
+  },
+  "sortRecent": {
+    "message": "Recente"
+  },
+  "labelDepth": {
+    "message": "Profundidade"
+  },
+  "depthShallow": {
+    "message": "Superficial (~30 seg por palavra-chave, 1 rodada)"
+  },
+  "depthMedium": {
+    "message": "Médio (~60 seg por palavra-chave, 2 rodadas)"
+  },
+  "depthDeep": {
+    "message": "Profundo (~120 seg por palavra-chave, 3 rodadas)"
+  },
+  "depthContinuous": {
+    "message": "Contínuo (rodadas infinitas, parar manualmente)"
+  },
+  "btnStartSearch": {
+    "message": "Começar a pesquisar Threads"
+  },
+  "btnStopSearch": {
+    "message": "Parar pesquisa e exportar"
+  },
+  "replyModeTitle": {
+    "message": "O que capturar para respostas?"
+  },
+  "replySelfOnly": {
+    "message": "Apenas este comentário"
+  },
+  "replySelfOnlyHint": {
+    "message": "Sem contexto, mais limpo"
+  },
+  "replyWithParent": {
+    "message": "Comentário + postagem original"
+  },
+  "replyWithParentHint": {
+    "message": "Veja o que está sendo respondido"
+  },
+  "replyWithThread": {
+    "message": "Original + todas as respostas"
+  },
+  "replyWithThreadHint": {
+    "message": "Thread completa (intervalo visível)"
+  },
+  "labelFilter": {
+    "message": "Filtrar postagens"
+  },
+  "allPlatforms": {
+    "message": "Todas"
+  },
+  "autoScreenshot": {
+    "message": "Captura automática de tela"
+  },
+  "capturedPosts": {
+    "message": "Postagens capturadas"
+  },
+  "noPostsLoading": {
+    "message": "Carregando…"
+  },
+  "noPostsEmpty": {
+    "message": "Nenhuma postagem ainda. Abra Threads / Instagram / Facebook para começar a capturar."
+  },
+  "noPostsFiltered": {
+    "message": "Nenhuma postagem correspondente: 0"
+  },
+  "viewOriginal": {
+    "message": "Original"
+  },
+  "replyingTo": {
+    "message": "Respondendo a:"
+  },
+  "couldNotLoad": {
+    "message": "(Não foi possível carregar o conteúdo original)"
+  },
+  "threadReplies": {
+    "message": "Respostas da thread"
+  },
+  "editHistory": {
+    "message": "✏️ Editado ×"
+  },
+  "viewEditHistory": {
+    "message": "Ver histórico de edição"
+  },
+  "historyTitle": {
+    "message": "Histórico de edição"
+  },
+  "historyMeta": {
+    "message": "@$1 · $2 · $3 versões",
+    "placeholders": {
+      "author": {
+        "content": "$1"
+      },
+      "platform": {
+        "content": "$2"
+      },
+      "count": {
+        "content": "$3"
+      }
+    }
+  },
+  "oldVersion": {
+    "message": "Versão anterior"
+  },
+  "newVersion": {
+    "message": "Nova versão"
+  },
+  "diffStats": {
+    "message": "+$1  −$2  (mesmo $3 caracteres)",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "removed": {
+        "content": "$2"
+      },
+      "equal": {
+        "content": "$3"
+      }
+    }
+  },
+  "quickReply": {
+    "message": "Resposta rápida"
+  },
+  "cannedPersonaTab1": {
+    "message": "Profissional"
+  },
+  "cannedPersonaTab2": {
+    "message": "Amigável"
+  },
+  "cannedPersonaTab3": {
+    "message": "Divertido"
+  },
+  "selectReply": {
+    "message": "-- Selecionar resposta --"
+  },
+  "copyToClipboard": {
+    "message": "📋"
+  },
+  "fillReplyBox": {
+    "message": "📝"
+  },
+  "cannedHint": {
+    "message": "Resposta sugerida, ajuste antes de enviar"
+  },
+  "btnImportTemplates": {
+    "message": "📥 Importar"
+  },
+  "btnExportTemplates": {
+    "message": "📤 Exportar"
+  },
+  "btnResetDefaults": {
+    "message": "↩ Redefinir padrões"
+  },
+  "copied": {
+    "message": "Copiado! Ajuste antes de enviar"
+  },
+  "filled": {
+    "message": "Preenchido! Ajuste antes de enviar"
+  },
+  "copyFallback": {
+    "message": "Não foi possível preencher, copiado para a área de transferência"
+  },
+  "export": {
+    "message": "Exportar"
+  },
+  "labelFormat": {
+    "message": "Formato (várias permitidas)"
+  },
+  "layoutFlat": {
+    "message": "Lista simples"
+  },
+  "layoutPaired": {
+    "message": "Com original"
+  },
+  "layoutThreaded": {
+    "message": "Thread"
+  },
+  "autoExport": {
+    "message": "Exportação automática"
+  },
+  "autoExportInterval": {
+    "message": "Intervalo de exportação automática"
+  },
+  "every3Min": {
+    "message": "A cada 3 minutos"
+  },
+  "every5Min": {
+    "message": "A cada 5 minutos"
+  },
+  "every10Min": {
+    "message": "A cada 10 minutos"
+  },
+  "storageWarning": {
+    "message": "Aviso de armazenamento"
+  },
+  "storageNear": {
+    "message": "Uso de armazenamento"
+  },
+  "storageDanger": {
+    "message": "Armazenamento quase cheio"
+  },
+  "exportAndClear": {
+    "message": "Exportar e depois limpar"
+  },
+  "searchStatus": {
+    "message": "Preparando pesquisa de $1 palavras-chave ($2)…",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "depth": {
+        "content": "$2"
+      }
+    }
+  },
+  "searchFailed": {
+    "message": "Falha na pesquisa"
+  },
+  "searchStopping": {
+    "message": "Parando pesquisa…"
+  },
+  "searchContinue": {
+    "message": "Retomando pesquisa…"
+  },
+  "searchProgress": {
+    "message": "Rodada $1 · Pesquisando ($2/$3): $4",
+    "placeholders": {
+      "round": {
+        "content": "$1"
+      },
+      "current": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      },
+      "keyword": {
+        "content": "$4"
+      }
+    }
+  },
+  "searchDone": {
+    "message": "Pesquisa concluída! Pesquisadas $1 palavras-chave no total.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchStopped": {
+    "message": "Parado"
+  },
+  "searchRequired": {
+    "message": "Adicione pelo menos uma palavra-chave primeiro."
+  },
+  "exportSuccess": {
+    "message": "Exportado $1 (salvo em Downloads/socialbuddy/$2/<formato>/)",
+    "placeholders": {
+      "format": {
+        "content": "$1"
+      },
+      "folder": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSuccess": {
+    "message": "Importação bem-sucedida ($1 categorias)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "importFailed": {
+    "message": "Falha na importação"
+  },
+  "exportFailed": {
+    "message": "Falha na exportação"
+  },
+  "clearFailed": {
+    "message": "Falha ao limpar"
+  },
+  "resetDefaults": {
+    "message": "Modelos padrão restaurados"
+  },
+  "resetFailed": {
+    "message": "Falha na redefinição"
+  },
+  "importFormatError": {
+    "message": "Erro de formato: nenhum dado de categoria válido encontrado"
+  },
+  "csvFormatError": {
+    "message": "Erro de formato CSV: são necessárias no mínimo 4 colunas (categoria, tom, título, conteúdo)"
+  },
+  "noDataToExport": {
+    "message": "Nenhuma categoria de palavra-chave para exportar"
+  },
+  "noTemplates": {
+    "message": "Nenhum modelo para exportar"
+  },
+  "noCannedMessages": {
+    "message": "(nenhum modelo ainda)"
+  },
+  "confirmClear": {
+    "message": "Tem certeza de que deseja limpar todas as postagens capturadas? Isto não pode ser desfeito."
+  },
+  "confirmReset": {
+    "message": "Tem certeza de que deseja redefinir para os padrões? Isso excluirá todos os modelos personalizados."
+  },
+  "removeKeyword": {
+    "message": "Remover «$1»",
+    "placeholders": {
+      "keyword": {
+        "content": "$1"
+      }
+    }
+  },
+  "onboardingStep": {
+    "message": "Etapa $1 / 5",
+    "placeholders": {
+      "step": {
+        "content": "$1"
+      }
+    }
+  },
+  "onboardingDownloadPath": {
+    "message": "Caminho de download"
+  },
+  "onboardingDownloadPathDesc": {
+    "message": "Os arquivos exportados serão salvos na pasta «Downloads». Você pode configurar uma subpasta personalizada nas configurações."
+  },
+  "onboardingCategories": {
+    "message": "Categorias de palavras-chave"
+  },
+  "onboardingCategoriesDesc": {
+    "message": "Crie categorias de palavras-chave nas configurações para acesso rápido na barra lateral."
+  },
+  "onboardingWatermark": {
+    "message": "Marca d'água do arquivo"
+  },
+  "onboardingWatermarkDesc": {
+    "message": "Os arquivos exportados são marcados com seu nome. Você pode adicionar rótulos personalizados nas configurações (por exemplo, «Trabalho»)."
+  },
+  "onboardingSchedule": {
+    "message": "Pesquisa programada"
+  },
+  "onboardingScheduleDesc": {
+    "message": "Use a seção «Tarefas programadas» nas configurações para que o Chrome pesquise e exporte em segundo plano."
+  },
+  "onboardingStart": {
+    "message": "Começar"
+  },
+  "onboardingStartDesc": {
+    "message": "Tente agora! Digite uma palavra-chave acima e clique em «Começar a pesquisar Threads»."
+  },
+  "onboardingSkip": {
+    "message": "Pular"
+  },
+  "onboardingPrev": {
+    "message": "Anterior"
+  },
+  "onboardingNext": {
+    "message": "Próximo"
+  },
+  "onboardingDone": {
+    "message": "Concluído"
+  },
+  "onboardingTitle": {
+    "message": "SocialBuddy · Configurações"
+  },
+  "searchResultsTitle": {
+    "message": "Resultados da pesquisa"
+  },
+  "backupRecordsTitle": {
+    "message": "Registros de backup"
+  },
+  "accountAnalysisTitle": {
+    "message": "Análise da conta"
+  },
+  "reportsTitle": {
+    "message": "Relatórios de pesquisa"
+  },
+  "labelKeywordFilter": {
+    "message": "Palavra-chave"
+  },
+  "filterKeyword": {
+    "message": "Filtrar palavra-chave"
+  },
+  "labelTimeRange": {
+    "message": "Intervalo de tempo"
+  },
+  "last7Days": {
+    "message": "Últimos 7 dias"
+  },
+  "last30Days": {
+    "message": "Últimos 30 dias"
+  },
+  "last90Days": {
+    "message": "Últimos 90 dias"
+  },
+  "btnExportCsv": {
+    "message": "Exportar CSV"
+  },
+  "btnExportJson": {
+    "message": "Exportar JSON"
+  },
+  "btnBatchArchive": {
+    "message": "Arquivo em lote"
+  },
+  "btnExportMerged": {
+    "message": "Exportar relatório mesclado"
+  },
+  "loadingStatus": {
+    "message": "Carregando…"
+  },
+  "backupTotalCount": {
+    "message": "Total de backups"
+  },
+  "backupUsed": {
+    "message": "Usado"
+  },
+  "backupLastBackup": {
+    "message": "Último backup"
+  },
+  "backupNone": {
+    "message": "Nenhum"
+  },
+  "searchBackup": {
+    "message": "Pesquisar backups"
+  },
+  "backupsList": {
+    "message": "Lista de registros de backup"
+  },
+  "accountsTable": {
+    "message": "Lista de contas"
+  },
+  "accountName": {
+    "message": "Conta"
+  },
+  "accountPlatform": {
+    "message": "Plataforma"
+  },
+  "accountFirstSeen": {
+    "message": "Primeira visualização"
+  },
+  "accountLastActive": {
+    "message": "Última atividade"
+  },
+  "accountPostCount": {
+    "message": "Postagens"
+  },
+  "accountReplyCount": {
+    "message": "Respostas"
+  },
+  "accountTotal": {
+    "message": "Total"
+  },
+  "accountActivity": {
+    "message": "Atividade"
+  },
+  "accountActions": {
+    "message": "Ações"
+  },
+  "detailBack": {
+    "message": "← Voltar"
+  },
+  "stickinessMatrix": {
+    "message": "Matriz de adesão"
+  },
+  "followingAccount": {
+    "message": "Conta seguida"
+  },
+  "replyCount": {
+    "message": "Número de respostas"
+  },
+  "cooccurrence": {
+    "message": "Coocorrência"
+  },
+  "stickinessScore": {
+    "message": "Pontuação de adesão"
+  },
+  "interestingArticles": {
+    "message": "Artigos interessantes"
+  },
+  "contactInfo": {
+    "message": "Informações de contato"
+  },
+  "keywordHitStats": {
+    "message": "Estatísticas de acerto de palavra-chave"
+  },
+  "anomalyAlerts": {
+    "message": "Alertas de anomalia"
+  },
+  "newPosts": {
+    "message": "Novas postagens"
+  },
+  "trendAnalysis": {
+    "message": "Tendências entre relatórios"
+  },
+  "reportsList": {
+    "message": "Lista de relatórios de pesquisa"
+  }
+}

@@ -1,0 +1,674 @@
+{
+  "extName": {
+    "message": "SocialBuddy",
+    "description": "Extension display name"
+  },
+  "extShortName": {
+    "message": "SocialBuddy",
+    "description": "Short name shown under the toolbar icon"
+  },
+  "extDescription": {
+    "message": "Realiza una copia de seguridad de las publicaciones de Threads, Instagram y Facebook en tu computadora mientras navegas. Todos los datos se almacenan localmente, nunca se cargan.",
+    "description": "Chrome Web Store description"
+  },
+  "actionTitle": {
+    "message": "SocialBuddy",
+    "description": "Tooltip on toolbar icon"
+  },
+  "sidePanelTitle": {
+    "message": "SocialBuddy",
+    "description": "Side panel heading"
+  },
+  "sidePanelSubtitle": {
+    "message": "Tus datos se almacenan en tu dispositivo",
+    "description": "Side panel subtitle / privacy reminder"
+  },
+  "labelKeyword": {
+    "message": "Palabra clave"
+  },
+  "searchPlaceholder": {
+    "message": "Buscar contenido de publicaciones o autor"
+  },
+  "labelPlatform": {
+    "message": "Plataforma"
+  },
+  "platformAll": {
+    "message": "Todas"
+  },
+  "labelExportFormat": {
+    "message": "Formato de exportación"
+  },
+  "btnRefresh": {
+    "message": "Actualizar"
+  },
+  "btnExport": {
+    "message": "Exportar"
+  },
+  "btnClear": {
+    "message": "Borrar"
+  },
+  "statusLoading": {
+    "message": "Cargando…"
+  },
+  "statusEmpty": {
+    "message": "No hay publicaciones aún. Abre Threads / Instagram / Facebook para que se capturen automáticamente."
+  },
+  "statusEmptyFiltered": {
+    "message": "Publicaciones coincidentes: 0"
+  },
+  "statusShowing": {
+    "message": "Mostrando $1 / $2",
+    "placeholders": {
+      "shown": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "statusExportDone": {
+    "message": "Se exportó $1 (consulta la barra de descargas del navegador).",
+    "placeholders": {
+      "format": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusCleared": {
+    "message": "Todas las publicaciones se han borrado."
+  },
+  "confirmClearAll": {
+    "message": "¿Estás seguro de que deseas borrar todas las publicaciones capturadas? Esta acción no se puede deshacer."
+  },
+  "linkOriginal": {
+    "message": "Original"
+  },
+  "optionsTitle": {
+    "message": "SocialBuddy · Configuración"
+  },
+  "optionsIntro": {
+    "message": "Ajusta el comportamiento de captura aquí. Tus datos siempre se almacenan en tu computadora, nunca se cargan a la nube."
+  },
+  "sectionCapture": {
+    "message": "Captura"
+  },
+  "sectionPlatforms": {
+    "message": "Plataformas"
+  },
+  "sectionRetention": {
+    "message": "Retención de datos"
+  },
+  "toggleAutoCapture": {
+    "message": "Capturar automáticamente las publicaciones que navegas"
+  },
+  "toggleShowMediaPreview": {
+    "message": "Mostrar vista previa de imagen en la barra lateral (envía solicitudes a CDN de plataformas)"
+  },
+  "retentionLabel": {
+    "message": "Eliminar automáticamente publicaciones anteriores a (días, 0 = mantener para siempre)"
+  },
+  "btnSave": {
+    "message": "Guardar"
+  },
+  "savedAt": {
+    "message": "Guardado ($1)",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "saveMismatch": {
+    "message": "⚠ Los datos no coinciden después de guardar. Por favor, inténtalo de nuevo."
+  },
+  "homePageTitle": {
+    "message": "SocialBuddy"
+  },
+  "homePageSubtitle": {
+    "message": "Tus datos se almacenan en tu dispositivo"
+  },
+  "toggleTheme": {
+    "message": "Cambiar tema"
+  },
+  "scheduleIndicator": {
+    "message": "Cronograma"
+  },
+  "navSearchResults": {
+    "message": "Resultados de búsqueda"
+  },
+  "navAccountAnalysis": {
+    "message": "Análisis de cuenta"
+  },
+  "navBackupRecords": {
+    "message": "Registros de copia de seguridad"
+  },
+  "navReports": {
+    "message": "Reportes"
+  },
+  "threadsKeywordSearch": {
+    "message": "Búsqueda de palabras clave en Threads"
+  },
+  "labelCategory": {
+    "message": "Categoría"
+  },
+  "customKeyword": {
+    "message": "-- Palabras clave personalizadas --"
+  },
+  "btnImportCategory": {
+    "message": "📥 Importar categoría"
+  },
+  "btnExportCategory": {
+    "message": "📤 Exportar categoría"
+  },
+  "labelSort": {
+    "message": "Ordenar"
+  },
+  "sortPopular": {
+    "message": "Popular (más relevante)"
+  },
+  "sortRecent": {
+    "message": "Reciente"
+  },
+  "labelDepth": {
+    "message": "Profundidad"
+  },
+  "depthShallow": {
+    "message": "Superficial (~30 seg por palabra clave, 1 ronda)"
+  },
+  "depthMedium": {
+    "message": "Medio (~60 seg por palabra clave, 2 rondas)"
+  },
+  "depthDeep": {
+    "message": "Profundo (~120 seg por palabra clave, 3 rondas)"
+  },
+  "depthContinuous": {
+    "message": "Continuo (rondas infinitas, detener manualmente)"
+  },
+  "btnStartSearch": {
+    "message": "Comenzar búsqueda en Threads"
+  },
+  "btnStopSearch": {
+    "message": "Detener búsqueda y exportar"
+  },
+  "replyModeTitle": {
+    "message": "¿Qué capturar para las respuestas?"
+  },
+  "replySelfOnly": {
+    "message": "Solo este comentario"
+  },
+  "replySelfOnlyHint": {
+    "message": "Sin contexto, lo más limpio"
+  },
+  "replyWithParent": {
+    "message": "Comentario + publicación original"
+  },
+  "replyWithParentHint": {
+    "message": "Ver a qué se está respondiendo"
+  },
+  "replyWithThread": {
+    "message": "Original + todas las respuestas"
+  },
+  "replyWithThreadHint": {
+    "message": "Hilo completo (rango visible)"
+  },
+  "labelFilter": {
+    "message": "Filtrar publicaciones"
+  },
+  "allPlatforms": {
+    "message": "Todas"
+  },
+  "autoScreenshot": {
+    "message": "Captura automática de pantalla"
+  },
+  "capturedPosts": {
+    "message": "Publicaciones capturadas"
+  },
+  "noPostsLoading": {
+    "message": "Cargando…"
+  },
+  "noPostsEmpty": {
+    "message": "No hay publicaciones aún. Abre Threads / Instagram / Facebook para comenzar a capturar."
+  },
+  "noPostsFiltered": {
+    "message": "No hay publicaciones coincidentes: 0"
+  },
+  "viewOriginal": {
+    "message": "Original"
+  },
+  "replyingTo": {
+    "message": "Respondiendo a:"
+  },
+  "couldNotLoad": {
+    "message": "(No se pudo cargar el contenido original)"
+  },
+  "threadReplies": {
+    "message": "Respuestas del hilo"
+  },
+  "editHistory": {
+    "message": "✏️ Editado ×"
+  },
+  "viewEditHistory": {
+    "message": "Ver historial de edición"
+  },
+  "historyTitle": {
+    "message": "Historial de edición"
+  },
+  "historyMeta": {
+    "message": "@$1 · $2 · $3 versiones",
+    "placeholders": {
+      "author": {
+        "content": "$1"
+      },
+      "platform": {
+        "content": "$2"
+      },
+      "count": {
+        "content": "$3"
+      }
+    }
+  },
+  "oldVersion": {
+    "message": "Versión anterior"
+  },
+  "newVersion": {
+    "message": "Nueva versión"
+  },
+  "diffStats": {
+    "message": "+$1  −$2  (igual $3 caracteres)",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "removed": {
+        "content": "$2"
+      },
+      "equal": {
+        "content": "$3"
+      }
+    }
+  },
+  "quickReply": {
+    "message": "Respuesta rápida"
+  },
+  "cannedPersonaTab1": {
+    "message": "Profesional"
+  },
+  "cannedPersonaTab2": {
+    "message": "Amigable"
+  },
+  "cannedPersonaTab3": {
+    "message": "Lúdico"
+  },
+  "selectReply": {
+    "message": "-- Selecciona respuesta --"
+  },
+  "copyToClipboard": {
+    "message": "📋"
+  },
+  "fillReplyBox": {
+    "message": "📝"
+  },
+  "cannedHint": {
+    "message": "Respuesta sugerida, por favor ajusta antes de enviar"
+  },
+  "btnImportTemplates": {
+    "message": "📥 Importar"
+  },
+  "btnExportTemplates": {
+    "message": "📤 Exportar"
+  },
+  "btnResetDefaults": {
+    "message": "↩ Restablecer predeterminados"
+  },
+  "copied": {
+    "message": "¡Copiado! Por favor ajusta antes de enviar"
+  },
+  "filled": {
+    "message": "¡Completado! Por favor ajusta antes de enviar"
+  },
+  "copyFallback": {
+    "message": "No se pudo completar, copiado al portapapeles"
+  },
+  "export": {
+    "message": "Exportar"
+  },
+  "labelFormat": {
+    "message": "Formato (se permite múltiples)"
+  },
+  "layoutFlat": {
+    "message": "Lista plana"
+  },
+  "layoutPaired": {
+    "message": "Con original"
+  },
+  "layoutThreaded": {
+    "message": "Hilo"
+  },
+  "autoExport": {
+    "message": "Exportación automática"
+  },
+  "autoExportInterval": {
+    "message": "Intervalo de exportación automática"
+  },
+  "every3Min": {
+    "message": "Cada 3 minutos"
+  },
+  "every5Min": {
+    "message": "Cada 5 minutos"
+  },
+  "every10Min": {
+    "message": "Cada 10 minutos"
+  },
+  "storageWarning": {
+    "message": "Advertencia de almacenamiento"
+  },
+  "storageNear": {
+    "message": "Uso de almacenamiento"
+  },
+  "storageDanger": {
+    "message": "El almacenamiento casi está lleno"
+  },
+  "exportAndClear": {
+    "message": "Exportar y luego borrar"
+  },
+  "searchStatus": {
+    "message": "Preparando búsqueda de $1 palabras clave ($2)…",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "depth": {
+        "content": "$2"
+      }
+    }
+  },
+  "searchFailed": {
+    "message": "La búsqueda falló"
+  },
+  "searchStopping": {
+    "message": "Deteniendo búsqueda…"
+  },
+  "searchContinue": {
+    "message": "Reanudando búsqueda…"
+  },
+  "searchProgress": {
+    "message": "Ronda $1 · Buscando ($2/$3): $4",
+    "placeholders": {
+      "round": {
+        "content": "$1"
+      },
+      "current": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      },
+      "keyword": {
+        "content": "$4"
+      }
+    }
+  },
+  "searchDone": {
+    "message": "¡Búsqueda completada! Se buscaron $1 palabras clave en total.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchStopped": {
+    "message": "Detenido"
+  },
+  "searchRequired": {
+    "message": "Por favor añade al menos una palabra clave primero."
+  },
+  "exportSuccess": {
+    "message": "Se exportó $1 (guardado en Downloads/socialbuddy/$2/<formato>/)",
+    "placeholders": {
+      "format": {
+        "content": "$1"
+      },
+      "folder": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSuccess": {
+    "message": "Importación exitosa ($1 categorías)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "importFailed": {
+    "message": "La importación falló"
+  },
+  "exportFailed": {
+    "message": "La exportación falló"
+  },
+  "clearFailed": {
+    "message": "No se pudo borrar"
+  },
+  "resetDefaults": {
+    "message": "Plantillas predeterminadas restauradas"
+  },
+  "resetFailed": {
+    "message": "El restablecimiento falló"
+  },
+  "importFormatError": {
+    "message": "Error de formato: no se encontraron datos de categoría válidos"
+  },
+  "csvFormatError": {
+    "message": "Error de formato CSV: se necesitan al menos 4 columnas (categoría, tono, título, contenido)"
+  },
+  "noDataToExport": {
+    "message": "No hay categorías de palabras clave para exportar"
+  },
+  "noTemplates": {
+    "message": "No hay plantillas para exportar"
+  },
+  "noCannedMessages": {
+    "message": "(sin plantillas aún)"
+  },
+  "confirmClear": {
+    "message": "¿Estás seguro de que deseas borrar todas las publicaciones capturadas? Esto no se puede deshacer."
+  },
+  "confirmReset": {
+    "message": "¿Estás seguro de que deseas restablecer a los predeterminados? Esto eliminará todas las plantillas personalizadas."
+  },
+  "removeKeyword": {
+    "message": "Eliminar «$1»",
+    "placeholders": {
+      "keyword": {
+        "content": "$1"
+      }
+    }
+  },
+  "onboardingStep": {
+    "message": "Paso $1 / 5",
+    "placeholders": {
+      "step": {
+        "content": "$1"
+      }
+    }
+  },
+  "onboardingDownloadPath": {
+    "message": "Ruta de descarga"
+  },
+  "onboardingDownloadPathDesc": {
+    "message": "Los archivos exportados se guardarán en tu carpeta de Descargas. Puedes configurar una subcarpeta personalizada en la configuración."
+  },
+  "onboardingCategories": {
+    "message": "Categorías de palabras clave"
+  },
+  "onboardingCategoriesDesc": {
+    "message": "Crea categorías de palabras clave en la configuración para acceso rápido en la barra lateral."
+  },
+  "onboardingWatermark": {
+    "message": "Marca de agua del archivo"
+  },
+  "onboardingWatermarkDesc": {
+    "message": "Los archivos exportados se marcan con tu nombre. Puedes añadir etiquetas personalizadas en la configuración (p. ej., «Trabajo»)."
+  },
+  "onboardingSchedule": {
+    "message": "Búsqueda programada"
+  },
+  "onboardingScheduleDesc": {
+    "message": "Usa la sección «Tareas programadas» en la configuración para que Chrome busque y exporte en segundo plano."
+  },
+  "onboardingStart": {
+    "message": "Empezar"
+  },
+  "onboardingStartDesc": {
+    "message": "¡Pruébalo ahora! Ingresa una palabra clave arriba y haz clic en «Comenzar búsqueda en Threads»."
+  },
+  "onboardingSkip": {
+    "message": "Omitir"
+  },
+  "onboardingPrev": {
+    "message": "Anterior"
+  },
+  "onboardingNext": {
+    "message": "Siguiente"
+  },
+  "onboardingDone": {
+    "message": "Hecho"
+  },
+  "onboardingTitle": {
+    "message": "SocialBuddy · Configuración"
+  },
+  "searchResultsTitle": {
+    "message": "Resultados de búsqueda"
+  },
+  "backupRecordsTitle": {
+    "message": "Registros de copia de seguridad"
+  },
+  "accountAnalysisTitle": {
+    "message": "Análisis de cuenta"
+  },
+  "reportsTitle": {
+    "message": "Reportes de búsqueda"
+  },
+  "labelKeywordFilter": {
+    "message": "Palabra clave"
+  },
+  "filterKeyword": {
+    "message": "Filtrar palabra clave"
+  },
+  "labelTimeRange": {
+    "message": "Rango de tiempo"
+  },
+  "last7Days": {
+    "message": "Últimos 7 días"
+  },
+  "last30Days": {
+    "message": "Últimos 30 días"
+  },
+  "last90Days": {
+    "message": "Últimos 90 días"
+  },
+  "btnExportCsv": {
+    "message": "Exportar CSV"
+  },
+  "btnExportJson": {
+    "message": "Exportar JSON"
+  },
+  "btnBatchArchive": {
+    "message": "Archivo por lotes"
+  },
+  "btnExportMerged": {
+    "message": "Exportar informe fusionado"
+  },
+  "loadingStatus": {
+    "message": "Cargando…"
+  },
+  "backupTotalCount": {
+    "message": "Total de copias de seguridad"
+  },
+  "backupUsed": {
+    "message": "Usado"
+  },
+  "backupLastBackup": {
+    "message": "Última copia de seguridad"
+  },
+  "backupNone": {
+    "message": "Ninguno"
+  },
+  "searchBackup": {
+    "message": "Buscar copias de seguridad"
+  },
+  "backupsList": {
+    "message": "Lista de registros de copia de seguridad"
+  },
+  "accountsTable": {
+    "message": "Lista de cuentas"
+  },
+  "accountName": {
+    "message": "Cuenta"
+  },
+  "accountPlatform": {
+    "message": "Plataforma"
+  },
+  "accountFirstSeen": {
+    "message": "Primero visto"
+  },
+  "accountLastActive": {
+    "message": "Última actividad"
+  },
+  "accountPostCount": {
+    "message": "Publicaciones"
+  },
+  "accountReplyCount": {
+    "message": "Respuestas"
+  },
+  "accountTotal": {
+    "message": "Total"
+  },
+  "accountActivity": {
+    "message": "Actividad"
+  },
+  "accountActions": {
+    "message": "Acciones"
+  },
+  "detailBack": {
+    "message": "← Volver"
+  },
+  "stickinessMatrix": {
+    "message": "Matriz de adherencia"
+  },
+  "followingAccount": {
+    "message": "Cuenta seguida"
+  },
+  "replyCount": {
+    "message": "Número de respuestas"
+  },
+  "cooccurrence": {
+    "message": "Coocurrencia"
+  },
+  "stickinessScore": {
+    "message": "Puntuación de adherencia"
+  },
+  "interestingArticles": {
+    "message": "Artículos interesantes"
+  },
+  "contactInfo": {
+    "message": "Información de contacto"
+  },
+  "keywordHitStats": {
+    "message": "Estadísticas de coincidencia de palabras clave"
+  },
+  "anomalyAlerts": {
+    "message": "Alertas de anomalía"
+  },
+  "newPosts": {
+    "message": "Nuevas publicaciones"
+  },
+  "trendAnalysis": {
+    "message": "Tendencias de informes cruzados"
+  },
+  "reportsList": {
+    "message": "Lista de reportes de búsqueda"
+  }
+}

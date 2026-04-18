@@ -1,0 +1,674 @@
+{
+  "extName": {
+    "message": "SocialBuddy",
+    "description": "Extension display name"
+  },
+  "extShortName": {
+    "message": "SocialBuddy",
+    "description": "Short name shown under the toolbar icon"
+  },
+  "extDescription": {
+    "message": "Threads / Instagram / Facebook を閲覧している間に、投稿をコンピュータにバックアップします。すべてのデータはローカルに保存され、クラウドにアップロードされることはありません。",
+    "description": "Chrome Web Store description"
+  },
+  "actionTitle": {
+    "message": "SocialBuddy",
+    "description": "Tooltip on toolbar icon"
+  },
+  "sidePanelTitle": {
+    "message": "SocialBuddy",
+    "description": "Side panel heading"
+  },
+  "sidePanelSubtitle": {
+    "message": "データはデバイス上に保存されます",
+    "description": "Side panel subtitle / privacy reminder"
+  },
+  "labelKeyword": {
+    "message": "キーワード"
+  },
+  "searchPlaceholder": {
+    "message": "投稿内容または投稿者を検索"
+  },
+  "labelPlatform": {
+    "message": "プラットフォーム"
+  },
+  "platformAll": {
+    "message": "すべて"
+  },
+  "labelExportFormat": {
+    "message": "エクスポート形式"
+  },
+  "btnRefresh": {
+    "message": "更新"
+  },
+  "btnExport": {
+    "message": "エクスポート"
+  },
+  "btnClear": {
+    "message": "クリア"
+  },
+  "statusLoading": {
+    "message": "読み込み中…"
+  },
+  "statusEmpty": {
+    "message": "まだ投稿がありません。Threads / Instagram / Facebook を開くと自動的にキャプチャされます。"
+  },
+  "statusEmptyFiltered": {
+    "message": "一致する投稿：0"
+  },
+  "statusShowing": {
+    "message": "$1 / $2 件を表示",
+    "placeholders": {
+      "shown": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "statusExportDone": {
+    "message": "$1 をエクスポートしました（ブラウザのダウンロード バーを確認）。",
+    "placeholders": {
+      "format": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusCleared": {
+    "message": "すべての投稿がクリアされました。"
+  },
+  "confirmClearAll": {
+    "message": "キャプチャしたすべての投稿をクリアしてもよろしいですか？この操作は取り消せません。"
+  },
+  "linkOriginal": {
+    "message": "オリジナル"
+  },
+  "optionsTitle": {
+    "message": "SocialBuddy · 設定"
+  },
+  "optionsIntro": {
+    "message": "ここでキャプチャ動作を調整します。データは常にコンピュータに保存され、クラウドにはアップロードされません。"
+  },
+  "sectionCapture": {
+    "message": "キャプチャ"
+  },
+  "sectionPlatforms": {
+    "message": "プラットフォーム"
+  },
+  "sectionRetention": {
+    "message": "データ保持"
+  },
+  "toggleAutoCapture": {
+    "message": "閲覧中の投稿を自動的にキャプチャ"
+  },
+  "toggleShowMediaPreview": {
+    "message": "サイドバーに画像プレビューを表示（プラットフォーム CDN にリクエストを送信）"
+  },
+  "retentionLabel": {
+    "message": "日数以上前の投稿を自動削除（0 = 永久保持）"
+  },
+  "btnSave": {
+    "message": "保存"
+  },
+  "savedAt": {
+    "message": "保存済み（$1）",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "saveMismatch": {
+    "message": "⚠ 保存後の読み込み値が不一致です。もう一度実行してください。"
+  },
+  "homePageTitle": {
+    "message": "SocialBuddy"
+  },
+  "homePageSubtitle": {
+    "message": "データはデバイス上に保存されます"
+  },
+  "toggleTheme": {
+    "message": "テーマの切り替え"
+  },
+  "scheduleIndicator": {
+    "message": "スケジュール"
+  },
+  "navSearchResults": {
+    "message": "検索結果"
+  },
+  "navAccountAnalysis": {
+    "message": "アカウント分析"
+  },
+  "navBackupRecords": {
+    "message": "バックアップ記録"
+  },
+  "navReports": {
+    "message": "レポート"
+  },
+  "threadsKeywordSearch": {
+    "message": "Threads キーワード検索"
+  },
+  "labelCategory": {
+    "message": "カテゴリー"
+  },
+  "customKeyword": {
+    "message": "-- カスタム キーワード --"
+  },
+  "btnImportCategory": {
+    "message": "📥 カテゴリをインポート"
+  },
+  "btnExportCategory": {
+    "message": "📤 カテゴリをエクスポート"
+  },
+  "labelSort": {
+    "message": "ソート"
+  },
+  "sortPopular": {
+    "message": "人気度順（最も関連性が高い）"
+  },
+  "sortRecent": {
+    "message": "最新"
+  },
+  "labelDepth": {
+    "message": "深さ"
+  },
+  "depthShallow": {
+    "message": "浅（キーワードあたり約 30 秒、1 ラウンド）"
+  },
+  "depthMedium": {
+    "message": "中（キーワードあたり約 60 秒、2 ラウンド）"
+  },
+  "depthDeep": {
+    "message": "深（キーワードあたり約 120 秒、3 ラウンド）"
+  },
+  "depthContinuous": {
+    "message": "連続（無制限、手動で停止）"
+  },
+  "btnStartSearch": {
+    "message": "Threads の検索を開始"
+  },
+  "btnStopSearch": {
+    "message": "検索を停止してエクスポート"
+  },
+  "replyModeTitle": {
+    "message": "返信でキャプチャするもの"
+  },
+  "replySelfOnly": {
+    "message": "このコメントのみ"
+  },
+  "replySelfOnlyHint": {
+    "message": "コンテキストなし、最もクリーン"
+  },
+  "replyWithParent": {
+    "message": "コメント + オリジナル投稿"
+  },
+  "replyWithParentHint": {
+    "message": "返信対象が表示される"
+  },
+  "replyWithThread": {
+    "message": "オリジナル + すべての返信"
+  },
+  "replyWithThreadHint": {
+    "message": "完全なスレッド（表示範囲内）"
+  },
+  "labelFilter": {
+    "message": "フィルター投稿"
+  },
+  "allPlatforms": {
+    "message": "すべて"
+  },
+  "autoScreenshot": {
+    "message": "自動スクリーンショット"
+  },
+  "capturedPosts": {
+    "message": "キャプチャされた投稿"
+  },
+  "noPostsLoading": {
+    "message": "読み込み中…"
+  },
+  "noPostsEmpty": {
+    "message": "まだ投稿がありません。Threads / Instagram / Facebook を開くとキャプチャが開始されます。"
+  },
+  "noPostsFiltered": {
+    "message": "一致する投稿なし：0"
+  },
+  "viewOriginal": {
+    "message": "オリジナル"
+  },
+  "replyingTo": {
+    "message": "返信先："
+  },
+  "couldNotLoad": {
+    "message": "（オリジナル コンテンツを読み込めませんでした）"
+  },
+  "threadReplies": {
+    "message": "スレッド返信"
+  },
+  "editHistory": {
+    "message": "✏️ 編集済み ×"
+  },
+  "viewEditHistory": {
+    "message": "編集履歴を表示"
+  },
+  "historyTitle": {
+    "message": "編集履歴"
+  },
+  "historyMeta": {
+    "message": "@$1 · $2 · $3 個のバージョン",
+    "placeholders": {
+      "author": {
+        "content": "$1"
+      },
+      "platform": {
+        "content": "$2"
+      },
+      "count": {
+        "content": "$3"
+      }
+    }
+  },
+  "oldVersion": {
+    "message": "旧バージョン"
+  },
+  "newVersion": {
+    "message": "新バージョン"
+  },
+  "diffStats": {
+    "message": "+$1  −$2  (同一 $3 文字)",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "removed": {
+        "content": "$2"
+      },
+      "equal": {
+        "content": "$3"
+      }
+    }
+  },
+  "quickReply": {
+    "message": "クイック返信"
+  },
+  "cannedPersonaTab1": {
+    "message": "プロフェッショナル"
+  },
+  "cannedPersonaTab2": {
+    "message": "フレンドリー"
+  },
+  "cannedPersonaTab3": {
+    "message": "ユーモア"
+  },
+  "selectReply": {
+    "message": "-- 返信を選択 --"
+  },
+  "copyToClipboard": {
+    "message": "📋"
+  },
+  "fillReplyBox": {
+    "message": "📝"
+  },
+  "cannedHint": {
+    "message": "推奨される返信です。送信前に調整してください"
+  },
+  "btnImportTemplates": {
+    "message": "📥 インポート"
+  },
+  "btnExportTemplates": {
+    "message": "📤 エクスポート"
+  },
+  "btnResetDefaults": {
+    "message": "↩ デフォルトにリセット"
+  },
+  "copied": {
+    "message": "コピーしました！送信前に調整してください"
+  },
+  "filled": {
+    "message": "入力しました！送信前に調整してください"
+  },
+  "copyFallback": {
+    "message": "入力できませんでした、クリップボードにコピーしました"
+  },
+  "export": {
+    "message": "エクスポート"
+  },
+  "labelFormat": {
+    "message": "形式（複数選択可）"
+  },
+  "layoutFlat": {
+    "message": "フラット リスト"
+  },
+  "layoutPaired": {
+    "message": "オリジナル付き"
+  },
+  "layoutThreaded": {
+    "message": "スレッド化"
+  },
+  "autoExport": {
+    "message": "自動エクスポート"
+  },
+  "autoExportInterval": {
+    "message": "自動エクスポート間隔"
+  },
+  "every3Min": {
+    "message": "3 分ごと"
+  },
+  "every5Min": {
+    "message": "5 分ごと"
+  },
+  "every10Min": {
+    "message": "10 分ごと"
+  },
+  "storageWarning": {
+    "message": "ストレージ警告"
+  },
+  "storageNear": {
+    "message": "ストレージ使用状況"
+  },
+  "storageDanger": {
+    "message": "ストレージがもうすぐ満杯になります"
+  },
+  "exportAndClear": {
+    "message": "エクスポート後にクリア"
+  },
+  "searchStatus": {
+    "message": "$1 個のキーワードを検索する準備中（$2）…",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "depth": {
+        "content": "$2"
+      }
+    }
+  },
+  "searchFailed": {
+    "message": "検索に失敗しました"
+  },
+  "searchStopping": {
+    "message": "検索を停止中…"
+  },
+  "searchContinue": {
+    "message": "検索を再開中…"
+  },
+  "searchProgress": {
+    "message": "ラウンド $1 · 検索中（$2/$3）：$4",
+    "placeholders": {
+      "round": {
+        "content": "$1"
+      },
+      "current": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      },
+      "keyword": {
+        "content": "$4"
+      }
+    }
+  },
+  "searchDone": {
+    "message": "検索完了！合計 $1 個のキーワードを検索しました。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchStopped": {
+    "message": "停止"
+  },
+  "searchRequired": {
+    "message": "まず 1 つ以上のキーワードを追加してください。"
+  },
+  "exportSuccess": {
+    "message": "$1 をエクスポートしました（Downloads/socialbuddy/$2/<形式>/ に保存）",
+    "placeholders": {
+      "format": {
+        "content": "$1"
+      },
+      "folder": {
+        "content": "$2"
+      }
+    }
+  },
+  "importSuccess": {
+    "message": "インポート成功（$1 個のカテゴリー）",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "importFailed": {
+    "message": "インポート失敗"
+  },
+  "exportFailed": {
+    "message": "エクスポート失敗"
+  },
+  "clearFailed": {
+    "message": "クリア失敗"
+  },
+  "resetDefaults": {
+    "message": "デフォルト テンプレートが復元されました"
+  },
+  "resetFailed": {
+    "message": "リセット失敗"
+  },
+  "importFormatError": {
+    "message": "形式エラー：有効なカテゴリー データが見つかりません"
+  },
+  "csvFormatError": {
+    "message": "CSV 形式エラー：最低 4 列必要です（カテゴリー、トーン、タイトル、コンテンツ）"
+  },
+  "noDataToExport": {
+    "message": "エクスポートするキーワード カテゴリーがありません"
+  },
+  "noTemplates": {
+    "message": "エクスポートするテンプレートがありません"
+  },
+  "noCannedMessages": {
+    "message": "（テンプレートがまだありません）"
+  },
+  "confirmClear": {
+    "message": "キャプチャしたすべての投稿をクリアしてもよろしいですか？取り消せません。"
+  },
+  "confirmReset": {
+    "message": "デフォルトにリセットしてもよろしいですか？すべてのカスタム テンプレートが削除されます。"
+  },
+  "removeKeyword": {
+    "message": "「$1」を削除",
+    "placeholders": {
+      "keyword": {
+        "content": "$1"
+      }
+    }
+  },
+  "onboardingStep": {
+    "message": "ステップ $1 / 5",
+    "placeholders": {
+      "step": {
+        "content": "$1"
+      }
+    }
+  },
+  "onboardingDownloadPath": {
+    "message": "ダウンロード パス"
+  },
+  "onboardingDownloadPathDesc": {
+    "message": "エクスポートされたファイルは、お客様の「ダウンロード」フォルダに保存されます。設定でカスタム サブフォルダを設定できます。"
+  },
+  "onboardingCategories": {
+    "message": "キーワード カテゴリー"
+  },
+  "onboardingCategoriesDesc": {
+    "message": "設定ページでキーワード カテゴリーを作成し、サイドバーから素早くアクセスできます。"
+  },
+  "onboardingWatermark": {
+    "message": "ファイル ウォーターマーク"
+  },
+  "onboardingWatermarkDesc": {
+    "message": "エクスポートされたファイルには、お客様の名前が付けられます。設定でカスタム ラベルを追加できます（例：「仕事用」）。"
+  },
+  "onboardingSchedule": {
+    "message": "スケジュール検索"
+  },
+  "onboardingScheduleDesc": {
+    "message": "設定の「スケジュールされたタスク」セクションで、Chrome がバックグラウンドで検索とエクスポートを行うように設定できます。"
+  },
+  "onboardingStart": {
+    "message": "開始"
+  },
+  "onboardingStartDesc": {
+    "message": "さあ始めましょう！上記にキーワードを入力して、「Threads の検索を開始」をクリックします。"
+  },
+  "onboardingSkip": {
+    "message": "スキップ"
+  },
+  "onboardingPrev": {
+    "message": "前へ"
+  },
+  "onboardingNext": {
+    "message": "次へ"
+  },
+  "onboardingDone": {
+    "message": "完了"
+  },
+  "onboardingTitle": {
+    "message": "SocialBuddy · 設定"
+  },
+  "searchResultsTitle": {
+    "message": "検索結果"
+  },
+  "backupRecordsTitle": {
+    "message": "バックアップ記録"
+  },
+  "accountAnalysisTitle": {
+    "message": "アカウント分析"
+  },
+  "reportsTitle": {
+    "message": "検索レポート"
+  },
+  "labelKeywordFilter": {
+    "message": "キーワード"
+  },
+  "filterKeyword": {
+    "message": "キーワード フィルター"
+  },
+  "labelTimeRange": {
+    "message": "時間範囲"
+  },
+  "last7Days": {
+    "message": "過去 7 日間"
+  },
+  "last30Days": {
+    "message": "過去 30 日間"
+  },
+  "last90Days": {
+    "message": "過去 90 日間"
+  },
+  "btnExportCsv": {
+    "message": "CSV としてエクスポート"
+  },
+  "btnExportJson": {
+    "message": "JSON としてエクスポート"
+  },
+  "btnBatchArchive": {
+    "message": "バッチ アーカイブ"
+  },
+  "btnExportMerged": {
+    "message": "マージされたレポートをエクスポート"
+  },
+  "loadingStatus": {
+    "message": "読み込み中…"
+  },
+  "backupTotalCount": {
+    "message": "バックアップ合計"
+  },
+  "backupUsed": {
+    "message": "使用済み"
+  },
+  "backupLastBackup": {
+    "message": "最後のバックアップ"
+  },
+  "backupNone": {
+    "message": "なし"
+  },
+  "searchBackup": {
+    "message": "バックアップを検索"
+  },
+  "backupsList": {
+    "message": "バックアップ記録リスト"
+  },
+  "accountsTable": {
+    "message": "アカウント リスト"
+  },
+  "accountName": {
+    "message": "アカウント"
+  },
+  "accountPlatform": {
+    "message": "プラットフォーム"
+  },
+  "accountFirstSeen": {
+    "message": "初回検出"
+  },
+  "accountLastActive": {
+    "message": "最後のアクティビティ"
+  },
+  "accountPostCount": {
+    "message": "投稿"
+  },
+  "accountReplyCount": {
+    "message": "返信"
+  },
+  "accountTotal": {
+    "message": "合計"
+  },
+  "accountActivity": {
+    "message": "アクティビティ"
+  },
+  "accountActions": {
+    "message": "アクション"
+  },
+  "detailBack": {
+    "message": "← 戻る"
+  },
+  "stickinessMatrix": {
+    "message": "粘着性マトリックス"
+  },
+  "followingAccount": {
+    "message": "フォロー中のアカウント"
+  },
+  "replyCount": {
+    "message": "返信数"
+  },
+  "cooccurrence": {
+    "message": "共起"
+  },
+  "stickinessScore": {
+    "message": "粘着性スコア"
+  },
+  "interestingArticles": {
+    "message": "興味深い記事"
+  },
+  "contactInfo": {
+    "message": "お問い合わせ情報"
+  },
+  "keywordHitStats": {
+    "message": "キーワード ヒット統計"
+  },
+  "anomalyAlerts": {
+    "message": "異常警告"
+  },
+  "newPosts": {
+    "message": "新しい投稿"
+  },
+  "trendAnalysis": {
+    "message": "クロス レポート トレンド"
+  },
+  "reportsList": {
+    "message": "検索レポート リスト"
+  }
+}
